@@ -12,7 +12,7 @@ connection.connect((err) => {
     console.error('Error connecting to MySQL:', err.message);
     return process.exit(1);
   }
-  console.log('✅ MySQL database connected successfully');
+  console.log('MySQL database connected successfully');
 });
 
 
