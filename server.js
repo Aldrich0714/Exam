@@ -1,7 +1,6 @@
 
 //API FRAMEWORD
 const express = require('express');
-//CROSS ORIGIN RESOURCE SHARING
 const cors = require('cors');
 //ENVIRONMENT VARIABLES
 require ('dotenv').config();
