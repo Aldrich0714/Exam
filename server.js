@@ -1,5 +1,5 @@
 
-//API FRAMEWORD
+//API FRAMEWORK
 const express = require('express');
 const cors = require('cors');
 //ENVIRONMENT VARIABLES
