@@ -24,9 +24,9 @@ app.use(logger);
 
 app.use(cors());
 app.use(express.json());
-app.use(express.urlencoded({extended:true})) //this will allow to read the url body tags
+app.use(express.urlencoded({extended:true}))
 
-//use routes
+
 app.use('/api', routes)
 
 app.listen(process.env.PORT, () => {

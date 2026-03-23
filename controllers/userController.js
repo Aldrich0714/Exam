@@ -12,7 +12,7 @@ exports.getAllUsers = (req,res)=>{
 
 //Search a user by Id
 exports.getUserById = (req, res) => {
-    const id = req.params.id; // This "id" must match the ":id" in the route
+    const id = req.params.id; 
     connection.query('SELECT * FROM userdata WHERE id=?', [id], (err, rows) => {
         if (err) return res.status(500).json({ error: err.message });
         res.json(rows);
